@@ -538,6 +538,14 @@
                                                     </a>
                                                  
                                                     <a
+                                                        href=" gallery-Sdfsf "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <p class="mt-1 text-sm text-gray-500">Sdfsf</p>
+                                                    </a>
+                                                 
+                                                    <a
                                                         href=" gallery-All "
                                                         role="menuitem"
                                                         class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
@@ -818,6 +826,10 @@
                                                     <p class="mt-1 text-sm text-gray-500">abc</p>
                                                 </a>
                                             
+                                                <a href="gallery-Sdfsf" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <p class="mt-1 text-sm text-gray-500">Sdfsf</p>
+                                                </a>
+                                            
                                                 <a href="gallery-All" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <p class="mt-1 text-sm text-gray-500">All Photos</p>
                                                 </a>
@@ -955,7 +967,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 6,
+        amountOfImages: 7,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -976,7 +988,7 @@
                     <button @click="activeImage = 0; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1a688191-354f-4d4a-8604-aadbcd18d17e.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/e2d5dcf8-1a9b-4e57-ba58-f1697e0a5692.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                             
                         </div>
 
@@ -993,7 +1005,7 @@
                     <button @click="activeImage = 1; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
-                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/df82d27d-2411-47f9-b48d-cf97f4fc1a68.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/1a688191-354f-4d4a-8604-aadbcd18d17e.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                             
                         </div>
 
@@ -1008,6 +1020,23 @@
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
                     <button @click="activeImage = 2; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            
+                                <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/df82d27d-2411-47f9-b48d-cf97f4fc1a68.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <video preload="metadata" class="rounded shadow-md object-contain w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/e7bdd152-fdf5-4286-900a-ba22fe6e7266.mp4#t=0.5" >
@@ -1025,7 +1054,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 3; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/2e3c717c-e522-4ea7-84b8-b505e3256013.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
@@ -1042,7 +1071,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 4; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/e671ba86-3afb-4ad2-9bf4-950e92ec2075.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
@@ -1059,7 +1088,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/media/eeaab9cf-7a90-4d7e-b14a-052663c8be74.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
@@ -1119,19 +1148,26 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1a688191-354f-4d4a-8604-aadbcd18d17e.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e2d5dcf8-1a9b-4e57-ba58-f1697e0a5692.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/df82d27d-2411-47f9-b48d-cf97f4fc1a68.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/1a688191-354f-4d4a-8604-aadbcd18d17e.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 2">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/df82d27d-2411-47f9-b48d-cf97f4fc1a68.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 3">
                                         
                                             <video preload="metadata" class="rounded shadow-md object-contain w-full h-60" loading="lazy" controls> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/e7bdd152-fdf5-4286-900a-ba22fe6e7266.mp4#t=0.5" >
                                             </video>
@@ -1139,21 +1175,21 @@
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 3">
+                                    <li class="flex flex-col" x-show="activeImage === 4">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/2e3c717c-e522-4ea7-84b8-b505e3256013.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 4">
+                                    <li class="flex flex-col" x-show="activeImage === 5">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/e671ba86-3afb-4ad2-9bf4-950e92ec2075.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 5">
+                                    <li class="flex flex-col" x-show="activeImage === 6">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/684x480/media/eeaab9cf-7a90-4d7e-b14a-052663c8be74.png" alt="All Photos for Caro&#x27;s Landscaping &amp; Law in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
