@@ -60,7 +60,7 @@
     </url>
 
     <url>
-        <loc>https://gobucks.com/service-Missing-Mike</loc>
+        <loc>https://gobucks.com/service-Missing-Mik</loc>
         <lastmod>2022-07-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -68,6 +68,13 @@
 
     <url>
         <loc>https://gobucks.com/service-Hawks</loc>
+        <lastmod>2022-07-28</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://gobucks.com/service-Missing-Mike</loc>
         <lastmod>2022-07-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
