@@ -1060,7 +1060,7 @@
             <div
     x-data="{
         activeImage: 0,
-        amountOfImages: 11,
+        amountOfImages: 12,
         next() {
             if (this.activeImage < this.amountOfImages - 1)
                 this.activeImage ++;
@@ -1082,7 +1082,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/e481e74f-6fd6-422f-aa3d-870422212a34.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/81dc806b-3531-48e3-a93f-644ad8728135.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                 
                             
                         </div>
@@ -1101,7 +1101,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/04320c4c-d84d-4ded-bd40-fb1716956ec6.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/e481e74f-6fd6-422f-aa3d-870422212a34.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                 
                             
                         </div>
@@ -1120,7 +1120,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/86159b2b-f6a5-4e01-ae25-18307ec2d55b.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/04320c4c-d84d-4ded-bd40-fb1716956ec6.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                 
                             
                         </div>
@@ -1139,7 +1139,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8ad7c3f7-15ab-44e5-8fca-603031caba72.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/86159b2b-f6a5-4e01-ae25-18307ec2d55b.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                 
                             
                         </div>
@@ -1158,7 +1158,7 @@
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
-                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f6ad2d71-1069-4f00-bc09-1cfbbe591328.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/8ad7c3f7-15ab-44e5-8fca-603031caba72.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                 
                             
                         </div>
@@ -1176,6 +1176,25 @@
                     <button @click="activeImage = 5; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
+                                
+                                    <img class="object-cover rounded-lg shadow-lg" src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/media/f6ad2d71-1069-4f00-bc09-1cfbbe591328.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                
+                            
+                        </div>
+
+                        <div class="space-y-1 text-lg font-medium leading-6">
+                            <p class="line-clamp-3"></p>
+                            <h3 class="text-primary"></h3>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        
+            <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
+                <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
+                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                        <div class="aspect-w-3 aspect-h-2">
+                            
                                 <video class="rounded shadow-md object-contain w-full h-60" loading="lazy" autoplay loop controls muted> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/e7bdd152-fdf5-4286-900a-ba22fe6e7266.mp4#t=0.5" >
                                 </video>
                             
@@ -1191,7 +1210,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 6; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
@@ -1210,7 +1229,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 7; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
@@ -1229,7 +1248,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 8; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
@@ -1248,7 +1267,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 9; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
@@ -1267,7 +1286,7 @@
         
             <li x-cloak x-data="{ shown: false }" x-intersect.full="shown = true" class=" block ">
                 <div x-show="shown" x-transition:enter="transition duration-1000" x-transition:enter-start="transform translate-y-20" x-transition:enter-end="transform translate-y-0">
-                    <button @click="activeImage = 10; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
+                    <button @click="activeImage = 11; galleryModalOpen = true" class="block w-full h-full space-y-4 text-left rounded focus:outline-none focus-visible:ring ring-primary ring-offset-2 ring-opacity-75">
                         <div class="aspect-w-3 aspect-h-2">
                             
                                 
@@ -1329,40 +1348,47 @@
                                 
                                     <li class="flex flex-col" x-show="activeImage === 0">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/e481e74f-6fd6-422f-aa3d-870422212a34.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/81dc806b-3531-48e3-a93f-644ad8728135.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 1">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/04320c4c-d84d-4ded-bd40-fb1716956ec6.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/e481e74f-6fd6-422f-aa3d-870422212a34.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 2">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/86159b2b-f6a5-4e01-ae25-18307ec2d55b.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/04320c4c-d84d-4ded-bd40-fb1716956ec6.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 3">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/8ad7c3f7-15ab-44e5-8fca-603031caba72.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/86159b2b-f6a5-4e01-ae25-18307ec2d55b.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 4">
                                             
-                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/f6ad2d71-1069-4f00-bc09-1cfbbe591328.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/8ad7c3f7-15ab-44e5-8fca-603031caba72.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
                                     <li class="flex flex-col" x-show="activeImage === 5">
+                                            
+                                            <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/f6ad2d71-1069-4f00-bc09-1cfbbe591328.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
+                                            <p lorem="1" class="mt-3 text-gray-500"></p>
+                                        
+                                    </li>
+                                
+                                    <li class="flex flex-col" x-show="activeImage === 6">
                                         
                                             <video class="gallery-modal-video rounded shadow-md object-contain w-full h-60" loading="lazy" autoplay loop controls muted> <source src="https://landing-page-app-hero-images.s3.amazonaws.com/media/e7bdd152-fdf5-4286-900a-ba22fe6e7266.mp4#t=0.5" >
                                             </video>
@@ -1370,35 +1396,35 @@
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 6">
+                                    <li class="flex flex-col" x-show="activeImage === 7">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/4c3fa98f-8383-456f-9dfd-b3236915ea05.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 7">
+                                    <li class="flex flex-col" x-show="activeImage === 8">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/1a688191-354f-4d4a-8604-aadbcd18d17e.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 8">
+                                    <li class="flex flex-col" x-show="activeImage === 9">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/2e3c717c-e522-4ea7-84b8-b505e3256013.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 9">
+                                    <li class="flex flex-col" x-show="activeImage === 10">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/eeaab9cf-7a90-4d7e-b14a-052663c8be74.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
                                         
                                     </li>
                                 
-                                    <li class="flex flex-col" x-show="activeImage === 10">
+                                    <li class="flex flex-col" x-show="activeImage === 11">
                                             
                                             <img class="mt-2 lg:h-[481px] h-[200px] sm:h-[300px] self-center rounded-md object-cover"  src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/filters:strip_exif()/filters:format(webp)/684x480/media/e671ba86-3afb-4ad2-9bf4-950e92ec2075.png" alt="abc for Caro&#x27;s Landscaping &amp; Law &amp; Missing Mike in Richmond, TX" loading="lazy"/>
                                             <p lorem="1" class="mt-3 text-gray-500"></p>
